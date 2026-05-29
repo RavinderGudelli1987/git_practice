@@ -1,7 +1,18 @@
-welcome git dev1 linux terminal
-
-file1 1st update
-
-dev1 windows changes: to git
-
-dev1 changes windows without git pull
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login Form</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="login-container">
+<h2>Login</h2>
+<form action="action_page.php" method="post">
+<div class="imgcontainer">
+<img src="img_avatar2.png" alt="Avatar" class="avatar">
+</div>
+<div class="container">
+<label for="uname"><b>Username</b></label>
+<input type="text" placeholder="Enter Username" name="uname" required>
+<label for="psw"><b>Password</b></label>
+<input
